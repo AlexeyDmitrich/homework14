@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8c82841-34a5-434a-8459-ffba07b81edb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d8c82841-34a5-434a-8459-ffba07b81edb" name="Changes" comment="Homework14 v.1.0&#10;необходимо доработать тесты по булевым методам">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="gb.akamenev.homework14" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WorkArrayTest.binaryTrueTest1">
+  <component name="RunManager" selected="JUnit.WorkArrayTest.binaryTrueTest2">
     <configuration name="WorkArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework14" />
       <option name="PACKAGE_NAME" value="gb.akamenev.homework14" />
@@ -133,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WorkArrayTest.binaryTrueTest2" />
         <item itemvalue="JUnit.WorkArrayTest.binaryTrueTest1" />
         <item itemvalue="JUnit.WorkArrayTest" />
-        <item itemvalue="JUnit.WorkArrayTest.binaryTrueTest2" />
         <item itemvalue="JUnit.WorkArrayTest.binaryTrueTest" />
         <item itemvalue="JUnit.WorkArrayTest.afterNumTestException" />
       </list>
@@ -150,6 +146,21 @@
       <option name="presentableId" value="Default" />
       <updated>1656696039421</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework14 v.1.0&#10;необходимо доработать тесты по булевым методам">
+      <created>1657039303807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657039303807</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework14 v.1.0&#10;необходимо доработать тесты по булевым методам">
+      <created>1657039500353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657039500353</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,37 +174,21 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework14 v.1.0&#10;необходимо доработать тесты по булевым методам" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework14 v.1.0&#10;необходимо доработать тесты по булевым методам" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java</url>
-          <line>40</line>
-          <properties class="gb.akamenev.homework14.WorkArrayTest" method="binaryTrueTest1">
+          <line>48</line>
+          <properties class="gb.akamenev.homework14.WorkArrayTest" method="binaryTrueTest2">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/gb/akamenev/homework14/WorkArrayTest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

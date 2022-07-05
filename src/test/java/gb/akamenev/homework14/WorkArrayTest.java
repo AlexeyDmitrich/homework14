@@ -40,13 +40,9 @@ int [] expected = {5,6,7};
     @Test
     public void binaryTrueTest1 (){    // тестируем массив из 1 и 4
          int[] array = {1,4,4,4,1,1,1,4,4,1,4,1,4,4,4,4};
-        boolean test = false;
-         if ((WorkArray.binaryTrue(array, num2, num))==true){
-            test = true;
-        }
-//        boolean expected;
-//        expected = true;
-         Assert.assertTrue(test);
+        boolean test = WorkArray.binaryTrue(array, num2, num);
+        boolean expected = true; // в выводе программа упорно пишет Epected :false, не могу понять, в чем дело
+         Assert.assertEquals(test, expected);
     }
 
     @Test
